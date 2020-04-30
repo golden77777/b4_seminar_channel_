@@ -12,6 +12,9 @@ B４の勉強会に使用するプログラムコードの保管場所になっ�
 
 [「issues」](https://github.com/golden77777/b4_seminar_channel_/issues)に上げてみてください。
 
+seminar_１：  4/23　問題0~19
+seminar_２：  4/30　問題20~39
+
  ## issues
 
 「issues」の書き方についてはあらかじめ上げておいた「改善要望例」のフォーマットの感じで挙げてみてください。
