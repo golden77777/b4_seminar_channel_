@@ -26,37 +26,36 @@ for x,y in zip(a,b):
 print(res)
 
 # 03 いはら
-input_str3="Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
-output_list3=list()
+str="Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+output=list()
 
-word_list3=input_str3.split( )
+word_list=str.split( )
 
-for item in word_list3:
-    item=item.rstrip(",")
-    item=item.rstrip(".")
-    output_list3.append(len(item))
+for item in word_list:
+    item=item.rstrip(","".")
+    output.append(len(item))
 
-print(output_list3)
+print(output)
 
 # 04 いはら
 def strip(word):
-    word=word.rstrip(",")
-    word=word.rstrip(".")
+    word=word.rstrip(","".")
     return(word)
 
-output_dic4=dict()
-input_str4="Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
- 
-word_list4=input_str4.split( )
-word_list4=list(map(strip,word_list4))
+output=dict()
+str="Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+index_list=[1,5,6,7,8,9,15,16,19]
 
-for i in range(0,len(word_list4)):
-    if (i+1) in [1,5,6,7,8,9,15,16,19]:
-        output_dic4[word_list4[i][0]]=i+1
+word_list=str.split( )
+word_list=list(map(strip,word_list))
+
+for i in range(0,len(word_list)):
+    if (i+1) in index_list:
+        output[word_list[i][0]]=i+1
     else:
-        output_dic4[word_list4[i][0]+word_list4[i][1]]=i+1
-        
-print(output_dic4)
+        output[word_list[i][0]+word_list[i][1]]=i+1
+
+print(output)
 
 # 05 きしもと
 def n_gram(seq,n):
@@ -119,4 +118,3 @@ def shuffle(string):
     return ' '.join(string_list)
 string = "I couldn’t believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
 print(shuffle(string))
-
