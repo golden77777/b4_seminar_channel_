@@ -10,7 +10,7 @@ B４の勉強会に使用するプログラムコードの保管場所になっ�
 
 各ディレクトリに、実際のコードが保管してあるので、内容を見ていただいて、改善点を思いついた場合は
 
-「issues」に上げてみてください。
+[「issues」](https://github.com/golden77777/b4_seminar_channel_/issues)に上げてみてください。
 
  ## issues
 
